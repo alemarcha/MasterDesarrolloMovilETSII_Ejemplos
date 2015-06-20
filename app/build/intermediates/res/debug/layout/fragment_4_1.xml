@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/menuFragment"
+            android:name="com.xanxamobile.androidavanzado.fragments.ListItemFragment4_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/alemarcha26/MEGA/4%20Modulo%20IV/3_Android_Básico/Ejemplos%20android%20basico%20y%20avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/src/main/res/layout/fragment_4_1.xml -->

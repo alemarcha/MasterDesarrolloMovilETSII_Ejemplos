@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/alemarcha26/MEGA/4%20Modulo%20IV/3_Android_Básico/Ejemplos%20android%20basico%20y%20avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/src/main/res/values-w820dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

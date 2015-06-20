@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xanxamobile.androidavanzado.Content_Fragment_4_1_small">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
+<!-- From: file:/Users/alemarcha26/MEGA/4%20Modulo%20IV/3_Android_Básico/Ejemplos%20android%20basico%20y%20avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/src/main/res/menu/menu_content__fragment_4_1_small.xml -->

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xanxamobile.androidavanzado"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.xanxamobile.androidavanzado.WidgetRSSReaderActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <receiver android:name="com.xanxamobile.androidavanzado.widget.RSSReaderWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/rssreader_widget_info" />
+        </receiver>
+        <receiver
+            android:name="com.xanxamobile.androidavanzado.widget.ChangeColorWidgetProvider"
+            android:label="Change Color Widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/changecolor_widget_info" />
+        </receiver>
+        <receiver
+            android:name="com.xanxamobile.androidavanzado.widget.ChangeColorReceiver"
+            android:label="Change Color Widget" >
+            <intent-filter>
+                <action android:name="actionChangeColor" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.xanxamobile.androidavanzado.AAListActivityMenu"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xanxamobile.androidavanzado.GreenHouseActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityCanvasBackgroundAnimations"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityAdapterGeneric"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityNotifications"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityAlarm"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <receiver android:name="com.xanxamobile.androidavanzado.receiver.AlarmReceiver" />
+        <receiver android:name="com.xanxamobile.androidavanzado.receiver.AlarmReceiver30Minute" />
+
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivitySensor"
+            android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.xanxamobile.androidavanzado.GestureActivity" />
+        <activity android:name="com.xanxamobile.androidavanzado.TTSActivity" />
+        <activity android:name="com.xanxamobile.androidavanzado.VoiceRecognitionActivity" />
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityPiedraPapelTijera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xanxamobile.androidavanzado.CalculatorActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityActionBar"
+            android:theme="@android:style/Theme.Holo" />
+        <activity
+            android:name="com.xanxamobile.androidavanzado.FragmentActivityExample"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityBroadCastReceiverAndService"
+            android:configChanges="keyboard|keyboardHidden|orientation|uiMode|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+        <service android:name="com.xanxamobile.androidavanzado.services.DownloadService" />
+
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ActivityLayoutTransition"
+            android:theme="@android:style/Theme.Holo" />
+        <activity android:name="com.xanxamobile.androidavanzado.AdvancedActionBarActivity" />
+        <activity
+            android:name="com.xanxamobile.androidavanzado.ListView2_1"
+            android:label="@string/title_activity_list_view2_1"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.xanxamobile.androidavanzado.BlankFragment"
+            android:label="@string/title_activity_fragment_4_1" >
+        </activity>
+        <activity
+            android:name="com.xanxamobile.androidavanzado.Content_Fragment_4_1_small"
+            android:label="@string/title_activity_content__fragment_4_1_small" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.xanxamobile.widgetrssreader.widget.ConfigureWidget"
+    android:initialLayout="@layout/main_composite_stack"
+    android:minHeight="72dip"
+    android:minWidth="294dip"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="3600000" />
+<!-- From: file:/Users/alemarcha26/MEGA/4%20Modulo%20IV/3_Android_Básico/Ejemplos%20android%20basico%20y%20avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/src/main/res/xml/rssreader_widget_info.xml -->

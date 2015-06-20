@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/shape_background_off"
+         android:state_focused="false"
+         android:state_pressed="false"/>
+    <item
+        android:drawable="@drawable/shape_background_focused"
+        android:state_focused="true"/>
+        
+    <item
+        android:drawable="@drawable/shape_background_on"
+        android:state_pressed="true"/>
+</selector><!-- From: file:/Users/alemarcha26/MEGA/4%20Modulo%20IV/3_Android_Básico/Ejemplos%20android%20basico%20y%20avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/src/main/res/drawable/selector_background.xml -->

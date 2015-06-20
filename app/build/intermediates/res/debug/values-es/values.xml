@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/alemarcha26/MEGA/4%20Modulo%20IV/3_Android_Básico/Ejemplos%20android%20basico%20y%20avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="additem">Añadir elemento</string>
+    <string name="app_name">ETSII Master Android Avanzado</string>
+    <string name="description">Descripción</string>
+    <string name="gallery">Gallery</string>
+    <string name="gridview">GridView</string>
+    <string name="hear_you">Te escucho</string>
+    <string name="hello">Hello World, WidgetRSSReaderActivity!</string>
+    <string name="listview">ListView</string>
+    <string name="search_article_by_title">Buscar Artículo por título</string>
+    <string name="show_alarm">Lanza Alarma</string>
+    <string name="show_notification">Lanza  Notification</string>
+    <string name="title">Título</string>
+    <string name="when">¿Dentro de cuántos segundos?</string>
+</resources>

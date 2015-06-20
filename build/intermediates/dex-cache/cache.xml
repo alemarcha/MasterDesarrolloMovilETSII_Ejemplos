@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/alemarcha26/MEGA/4 Modulo IV/3_Android_Básico/Ejemplos android basico y avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="48c94ae70fa65718b382098237806a5909bb096e">
+        <dex dex="/Users/alemarcha26/MEGA/4 Modulo IV/3_Android_Básico/Ejemplos android basico y avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/build/intermediates/pre-dexed/debug/android-support-v4-34dc226178ff6e09a26f92a2d2301a64f545e038.jar" />
+    </item>
+    <item
+        jar="/Users/alemarcha26/MEGA/4 Modulo IV/3_Android_Básico/Ejemplos android basico y avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="48c94ae70fa65718b382098237806a5909bb096e">
+        <dex dex="/Users/alemarcha26/MEGA/4 Modulo IV/3_Android_Básico/Ejemplos android basico y avanzado/ProjectAndroidStudio/MasterDesarrolloMovilETSII_Ejemplos/app/build/intermediates/pre-dexed/debug/android-support-v4-34dc226178ff6e09a26f92a2d2301a64f545e038.jar" />
+    </item>
+
+</items>
